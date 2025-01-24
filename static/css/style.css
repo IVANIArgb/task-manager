@@ -1,0 +1,26 @@
+/* Общий стиль для завершенных задач */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Стили для кнопок */
+.btn-success {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+/* Карточки и фоновый стиль */
+.card {
+    border-radius: 10px;
+    border: none;
+}
+
+.container {
+    max-width: 800px;
+}
