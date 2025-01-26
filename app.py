@@ -8,9 +8,9 @@ app = Flask(__name__)
 def init_db():
      conn = sqlite3.connect('tasks.db')
      cursor = conn.cursor()
-     cursor.execute('''CREATE TABLE IF NOT EXISTS tasks 
+     cursor.execute('''CREATE TABLE IF NOT EXISTS tasks
                          (id INTEGER PRIMARY KEY AUTOINCREMENT,
-                         title TEXT, 
+                         title TEXT,
                          deadline DATETIME,
                          created DATETIME,
                          completed BOOLEAN DEFAULT 0)''')
